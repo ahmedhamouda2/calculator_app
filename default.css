@@ -88,3 +88,66 @@ header {
     text-indent: 10px;
 }
 /* End text view */
+
+/* start calculator keys */
+.calculator__keys {
+    background-color: #232c43;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 25px 25px 15px 25px;
+    font-size: 22px;
+
+}
+.calculator__keys tr input {
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    background: #eae3dc;
+    color: #444b5a;
+    box-shadow: 0px 3px #b4a597;
+    transition: 0.2s;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.calculator__keys td input {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.calculator__keys tr input:hover {
+    background: #cec8c1;
+}
+.calculator__keys .del ,.calculator__keys .back  {
+    color: #FFF;
+    background: #637097;
+    box-shadow: 0px 3px #404e72;
+    font-size: 22px;
+}
+.calculator__keys .del:hover , .calculator__keys .back:hover {
+    background:#35405e;
+}
+.calculator__keys .equal {
+    width: 47%;
+    color: #FFF;
+    background: #d03f2f;
+    box-shadow: 0px 3px #93261a;
+    width: 195px
+}
+.calculator__keys .equal:hover {
+    background: #b43729;
+}
+.calculator__keys .back {
+    margin-left: 0;
+    width: 195px
+}
+.calculator__keys .resetML {
+    margin-left: 0;
+}
+.calculator__keys .resetMT {
+    margin-top: 0;
+}
+/* End calculator keys */
