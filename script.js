@@ -26,7 +26,7 @@ back = () => {
 let btnChange = document.getElementById("btn-switch")
 btnChange.addEventListener("click" , toggleTheme )
 function toggleTheme() {
-    let theme = document.getElementsByTagName('link')[5];
+    let theme = document.getElementById("styleChange")
 
     if (theme.getAttribute('href') == 'css/default.css') {
         theme.setAttribute('href', 'css/theme1.css');
