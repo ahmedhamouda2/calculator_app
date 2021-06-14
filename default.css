@@ -39,3 +39,38 @@ ul li:last-of-type{
     }
 }
 /* End Global Rules */
+
+/* start header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+.theme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.theme h6 {
+    margin-right:25px
+}
+.theme .button-switch {
+    width: 60px;
+    height: 22px;
+    background: #232c43;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.button-switch:before {
+    content: "";
+    background: #d03f2f;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+}
+/* End header */
