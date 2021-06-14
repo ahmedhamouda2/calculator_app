@@ -10,3 +10,8 @@ equal = () => {
         document.form.textview.value = eval(exp)
     }
 }
+
+// create function of cleaner of textview
+clean = () => {
+    document.form.textview.value = ""
+}
