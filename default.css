@@ -161,3 +161,14 @@ footer span {
     color:#d03f2f;
 }
 /* End footer */
+
+/* start media query */
+@media(max-width:667px) {
+    .calculator__keys td input {
+        width: 55px;
+    }
+    .calculator__keys .equal , .calculator__keys .back {
+        width: 130px
+    }
+}
+/* End media query */
