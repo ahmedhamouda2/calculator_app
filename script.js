@@ -28,11 +28,11 @@ btnChange.addEventListener("click" , toggleTheme )
 function toggleTheme() {
     let theme = document.getElementsByTagName('link')[5];
 
-    if (theme.getAttribute('href') == 'default.css') {
-        theme.setAttribute('href', 'theme1.css');
-    } else if (theme.getAttribute('href') == 'theme1.css') {
-        theme.setAttribute('href', 'theme2.css');
+    if (theme.getAttribute('href') == 'css/default.css') {
+        theme.setAttribute('href', 'css/theme1.css');
+    } else if (theme.getAttribute('href') == 'css/theme1.css') {
+        theme.setAttribute('href', 'css/theme2.css');
     } else {
-        theme.setAttribute('href', 'default.css');
+        theme.setAttribute('href', 'css/default.css');
     }
 }
