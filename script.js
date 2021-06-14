@@ -15,3 +15,9 @@ equal = () => {
 clean = () => {
     document.form.textview.value = ""
 }
+
+// create function of Take a step back
+back = () => {
+    let exp = document.form.textview.value;
+    document.form.textview.value = exp.substring(0,exp.length-1)
+}
