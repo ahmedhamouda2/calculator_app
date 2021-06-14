@@ -1,0 +1,41 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    background-color: #3a4764;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: #FFF;
+    margin-right: -2px;
+}
+ul li {
+    margin-right: 12px;
+    position: relative;
+    top: 20px;
+}
+ul li:last-of-type{
+    margin-right: 10px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 500px;
+        margin: auto;
+    }
+}
+/* End Global Rules */
