@@ -151,3 +151,13 @@ header {
     margin-top: 0;
 }
 /* End calculator keys */
+
+/* start footer */
+footer {
+    margin-top: 50px;
+    font-size: 12px;
+}
+footer span {
+    color:#d03f2f;
+}
+/* End footer */
